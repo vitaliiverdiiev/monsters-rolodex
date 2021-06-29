@@ -1,5 +1,5 @@
 import React from "react";
-import x from "./search-box.module.scss";
+import x from "./search-box.module.scss";  
 
 const Search = ({ searchMonsters }) => {
   return (
