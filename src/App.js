@@ -23,6 +23,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1> Monsters Rolodex </h1>
       <Search searchMonsters={(e) => searchMonsters(e)} />
       <CardList monsters={filteredMonsters} />
     </div>
